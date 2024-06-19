@@ -20,7 +20,16 @@
       document.write("Player 1 wins");
     } else if (move1 === "rock" && move2 === "paper") {
       document.write("Player 2 wins");
-    }
+    } else if (move1 === "scissors" && move2 === "paper") {
+      document.write("Player 1 wins");
+    } else if (move1 === "scissors" && move2 === "rock") {
+      document.write("Player 2 wins");
+    } else if (move1 === "paper" && move2 === "rock") {
+      document.write("Player 1 wins");
+    } else if (move1 === "paper" && move2 === "scissors") {
+      document.write("Player 2 wins");
+    } else document.write("It's a tie");
+    
 
   </script>
 
